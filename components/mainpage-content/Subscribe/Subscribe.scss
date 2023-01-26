@@ -1,0 +1,23 @@
+.subscribe{
+    padding: 0 25px;
+
+    .subscribe__wrapper{
+        display: flex;
+        
+        .subscribe__content{
+            flex: 1;
+        }
+
+        .subscribe__img{
+            flex: 1;
+            .subscribeImg{
+                width: 44em;
+                height: auto;
+            }
+            
+        }
+    }
+
+
+
+}

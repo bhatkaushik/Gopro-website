@@ -1,0 +1,23 @@
+.navbar {
+    height: 52px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+padding: 0 20px;
+    .navbar__itemWrapper {
+        display: flex;
+        gap: 1em;
+        font-weight: 500;
+    }
+
+    .navbar-search-cart {
+        display: flex;
+        gap: 1em;
+   
+    }
+
+
+}

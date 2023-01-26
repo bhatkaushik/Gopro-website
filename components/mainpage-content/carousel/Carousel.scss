@@ -1,0 +1,36 @@
+.carousel{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap:2em;
+
+    .cardsWrapper{
+        display: flex;
+        gap: 16px;
+        overflow-x: hidden;
+
+        .cardItem{
+            position: relative;
+            .carouselImg{
+                height: 190px;
+                width: 190px;
+            }
+
+            .cardCaption{
+                position: absolute;
+                top: 140px ;
+                left: 20px;
+                color: white;
+            }
+
+        }
+        
+
+
+      
+
+
+    }
+}
+
+

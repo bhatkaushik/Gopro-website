@@ -1,0 +1,53 @@
+.hero {
+    position: relative;
+
+    .HeroImg {
+        width: 100%;
+        height: auto;
+    }
+
+    .hero__content {
+        position: absolute;
+        top: 6em;
+        left: 2em;
+        max-width: 35em;
+        display: flex;
+        flex-direction: column;
+        gap: 1.5em;
+
+        .hero__heading {
+            display: flex;
+            background-color: #0047FF;
+            font-size: 32px;
+            color: white;
+            font-weight: 400;
+            padding: 8px 30px;
+            align-self: flex-start;
+            line-height: 45px;
+            border-radius: 10px;
+
+        }
+
+        .hero__subHeading {
+            font-weight: 600;
+            font-size: 36px;
+            line-height: 45px;
+            letter-spacing: 0.25px;
+        }
+
+        h5 {
+            color: #0047FF;
+            font-weight: 600;
+            font-size: 20px;
+            line-height: 26px;
+        }
+
+        .shopHero__btn {
+            padding: 15px 20px;
+            font-weight: 700;
+            font-size: 14px;
+            line-height: 18px;
+            width: 180px;
+        }
+    }
+}
