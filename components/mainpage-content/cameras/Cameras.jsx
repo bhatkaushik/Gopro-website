@@ -7,14 +7,14 @@ const Cameras = () => {
   return (
     <section className="cameras">
       <div className="camera__cards">
-        <Image src={Hero11Img} className='cameraImg' alt='hero11' />
+        <Image src={Hero11Img} className='largeImg' alt='hero11' />
         <h2>Hollywood in your hand.</h2>
-        <button>Shop Now</button>
+        <button className='shopNow__Button'>Shop Now</button>
       </div>
       <div className="camera__cards">
-      <Image src={Hero11MiniImg}  className='cameraImg' alt='hero11' />
+      <Image src={Hero11MiniImg}  className='largeImg' alt='hero11' />
         <h2>Smaller. Simpler. Full performance.</h2>
-        <button>Shop Now</button>
+        <button className='shopNow__Button'>Shop Now</button>
       </div>
     </section>
   );

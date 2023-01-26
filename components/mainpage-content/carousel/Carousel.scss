@@ -1,36 +1,34 @@
-.carousel{
+.carousel {
+    width: 100%;
     display: flex;
     flex-direction: column;
-    align-items: center;
-    gap:2em;
-
-    .cardsWrapper{
+    gap: 2em;
+    padding: 0 25px;
+    margin: 0 auto;
+    h2{
+        align-self: center;
+    }
+    .cardsWrapper {
+        align-self: center;
         display: flex;
         gap: 16px;
         overflow-x: hidden;
 
-        .cardItem{
+        .cardItem {
             position: relative;
-            .carouselImg{
+
+            .carouselImg {
                 height: 190px;
                 width: 190px;
             }
 
-            .cardCaption{
+            .cardCaption {
                 position: absolute;
-                top: 140px ;
+                top: 140px;
                 left: 20px;
                 color: white;
             }
 
         }
-        
-
-
-      
-
-
     }
 }
-
-

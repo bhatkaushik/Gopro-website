@@ -1,14 +1,40 @@
 .footer{
 
+    background-color: #A0A1A2;
+
     .footer__top{
         display: flex;
+        height: 148px;
+        align-items: center;
+        padding: 0 25px;
     }
 
     .footer__middle{
+        padding: 1em 25px;
+        background-color: #111111;
+        color: #ffffff;
+
+
         .footer__middle__Xwrapper{
             display: flex;
+            .footer__middle__Ywrapper{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                flex: 1;
+            }
         }
+
     }
+
+       .footer__bottom{
+            background-color: #111111;
+            color: #ffffff;
+            padding: 1em 25px;
+            .terms__of__use{
+              display: flex;
+            }
+        }
 
 
 

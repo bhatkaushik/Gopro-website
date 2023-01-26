@@ -11,20 +11,21 @@ const Categories = () => {
       <div className="categroies__container1">
         <Image
           src={categoryImage1}
-          className="backpackImg"
+          className="largeImg"
           alt="categoryImage"
         />
         {/* Backpacks + Bags */}
         <div className="categories__subContainer">
           <Image
             src={categoryImage2}
-            className="clothingImg"
+            className="smallImg"
             alt="categoryImage"
           />
           {/* Clothing */}
+          
           <Image
             src={categoryImage3}
-            className="clothingImg"
+            className="smallImg"
             alt="categoryImage"
           />
           {/* Lifestyle */}
@@ -33,7 +34,7 @@ const Categories = () => {
       <div className="categories__container">
         <Image
           src={categoryImage4}
-          className="backpackImg"
+          className="largeImg"
           alt="categoryImage"
         />
         {/* Gear designed for the GoPro lifestyle */}

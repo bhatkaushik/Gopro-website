@@ -2,30 +2,13 @@
     display: flex;
     justify-content: center;
     gap: 1em;
-    .accessories__container {
-
-        .accessories__moduleImg {
-            width: 43em;
-            height: auto;
-        }
-    }
-
     .accessories__secand__wrapper {
         display: flex;
         flex-direction: column;
-
-        .accessories__moduleImg {
-            width: 43em;
-            height: auto;
-        }
-
+        gap: 1em;
         .accessories__third__wrapper {
             display: flex;
-
-            .accessories__smallImg {
-                width: 21em;
-                height: auto;
-            }
+            gap: 1em;
         }
     }
 

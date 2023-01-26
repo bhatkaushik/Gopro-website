@@ -10,16 +10,16 @@ const Accessories = () => {
       <div className="accessories__container">
         <Image
           src={AccessoriesImage1}
-          className="accessories__moduleImg"
+          className="largeImg"
           alt="accessoriesImg"
         />
       </div>
 
       <div className="accessories__secand__wrapper">
-        <Image src={AccessoriesImage2} className="accessories__moduleImg" alt="accessoriesImg" />
+        <Image src={AccessoriesImage2}   className="largeImg" alt="accessoriesImg" />
         <div className="accessories__third__wrapper">
-          <Image src={AccessoriesImage3} className="accessories__smallImg"  alt="accessoriesImg" />
-          <Image src={AccessoriesImage4} className="accessories__smallImg" alt="accessoriesImg" />
+          <Image src={AccessoriesImage3} className="smallImg"  alt="accessoriesImg" />
+          <Image src={AccessoriesImage4} className="smallImg" alt="accessoriesImg" />
         </div>
       </div>
     </section>

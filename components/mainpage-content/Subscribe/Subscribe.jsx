@@ -8,8 +8,8 @@ import "./Subscribe.scss";
 const Subscribe = () => {
   return (
     <section className="subscribe">
-      <h1>Subscribe to GoPro </h1>
       <div className="subscribe__wrapper">
+        <h1>Subscribe to GoPro </h1>
         <div className="subscribe__content">
           <li className="subscribe__content__li">
             <CloudUploadOutlined /> Automatically upload footage from your GoPro
@@ -28,15 +28,14 @@ const Subscribe = () => {
             Guaranteed camera replacement <sup>3</sup>
           </li>
         </div>
-        <div className="subscribe__img">
-          <Image src={subscribeImg} className="subscribeImg" alt="subscribeImg" />
-        </div>
+        <button className="shopNow__Button">SUBSCRIBE NOW</button>
+        <p>
+          You can easily transfer/gift your GoPro Subscription after purchase.
+        </p>
       </div>
-      <button>SUBSCRIBE NOW</button>
-
-      <p>
-        You can easily transfer/gift your GoPro Subscription after purchase.
-      </p>
+      <div className="subscribe__img">
+        <Image src={subscribeImg} className="largeImg" alt="subscribeImg" />
+      </div>
     </section>
   );
 };

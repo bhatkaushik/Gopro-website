@@ -1,31 +1,18 @@
-.categories{
+.categories {
     display: flex;
     padding: 0 25px;
-    gap: 1em;
+    gap: 1rem;
     justify-content: center;
 
-    .backpackImg{
-        width: 43em;
-        height: auto;
-    }
-
-    .clothingImg{
-        width: 21em;
-        height: auto;
-     }
-    .categories__container1{
+    .categories__container1 {
         display: flex;
         flex-direction: column;
-        
-      
+        gap: 16px;
 
-        .categories__subContainer{
-         display: flex;   
-        
-        
-
+        .categories__subContainer {
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
         }
-
-        
     }
 }
