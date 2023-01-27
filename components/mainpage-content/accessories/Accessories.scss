@@ -28,7 +28,14 @@
         .accessories__article:nth-child(4){
             grid-area: four;
         }
+
+
+        .accessories__article:hover{
+            cursor: pointer;
+        }
     }
+
+
    
  
 

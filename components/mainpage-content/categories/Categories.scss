@@ -40,6 +40,10 @@
         .categoriesImgArticle:nth-child(4) {
             grid-area: four;
         }
+
+        .categoriesImgArticle:hover{
+            cursor: pointer;
+        }
     }
 
 

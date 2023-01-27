@@ -11,20 +11,17 @@ const MainPageContentLayout = () => {
     <section className="MainPageContentLayout">
       <div className="spacerbar__short"></div>
       <Flyer />
-      <div className="spacerbar__long"></div>
-      <Carousel />
       <div className="spacerbar__short"></div>
+      <Carousel />
+      <div className="spacerbar__long"></div>
       <Cameras />
       <div className="spacerbar__long"></div>
       <Accessories />
       <div className="spacerbar__long"></div>
-
       <Subscribe />
       <div className="spacerbar__long"></div>
-
       <Categories />
       <div className="spacerbar__long"></div>
-
     </section>
   );
 };

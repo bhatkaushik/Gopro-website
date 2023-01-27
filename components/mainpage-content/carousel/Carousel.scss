@@ -16,7 +16,8 @@
 
         .cardItem {
             position: relative;
-
+            transition: transform .2s ease-in; /* Animation */
+            overflow: hidden;
             .carouselImg {
                 height: 190px;
                 width: 190px;
@@ -29,6 +30,11 @@
                 color: white;
             }
 
+        }
+
+        .cardItem:hover{
+            transform: scale(1.1);
+            cursor: pointer;
         }
     }
 }
