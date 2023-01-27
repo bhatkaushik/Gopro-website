@@ -4,10 +4,15 @@
     justify-content: center;
     gap: 1em;
     padding:0 25px;
+    letter-spacing:.50px;
     .camera__cards{
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1em;
+        gap: 2.5em;
+
+        h2{
+            font-size: 29px;
+        }
     }
 }

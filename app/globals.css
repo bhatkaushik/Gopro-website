@@ -10,7 +10,7 @@ body {
   display: flex;
   flex-direction: column;
   box-sizing: border-box;
-  font-family: Sohne, Helvetica, Arial, sans-serif;
+  font-family: 'Sohne', Helvetica,  sans-serif;
   font-style: normal;
   font-weight: 400;
   font-size: 16px;

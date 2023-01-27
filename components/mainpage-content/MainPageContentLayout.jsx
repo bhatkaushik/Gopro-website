@@ -9,9 +9,9 @@ import Subscribe from "./Subscribe/Subscribe";
 const MainPageContentLayout = () => {
   return (
     <section className="MainPageContentLayout">
-      <div className="spacerbar__short"></div>
+       <div className="spacerbar__long"></div>
       <Flyer />
-      <div className="spacerbar__short"></div>
+      <div className="spacerbar__long"></div>
       <Carousel />
       <div className="spacerbar__long"></div>
       <Cameras />

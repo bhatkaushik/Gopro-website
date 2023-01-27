@@ -17,8 +17,8 @@ const Navbar = () => {
         <li className="navbar__item"> Shop by Activity</li>
       </ul>
       <div className="navbar-search-cart">
-          <Search/>
-        <ShoppingCartOutlined />
+          <Search sx={{width:50,height:35}} />
+        <ShoppingCartOutlined sx={{width:50,height:35}} />
       </div>
     </div>
   );

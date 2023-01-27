@@ -1,5 +1,6 @@
 .hero {
     position: relative;
+    letter-spacing: 0.40px;
 
     .HeroImg {
         width: 100%;
@@ -8,7 +9,7 @@
 
     .hero__content {
         position: absolute;
-        top: 6em;
+        top: 9em;
         left: 2em;
         max-width: 35em;
         display: flex;
@@ -21,25 +22,25 @@
             font-size: 32px;
             color: white;
             font-weight: 400;
-            padding: 8px 30px;
+            padding: 2px 28px;
             align-self: flex-start;
-            line-height: 45px;
+            line-height: 40px;
             border-radius: 10px;
-
         }
 
         .hero__subHeading {
             font-weight: 600;
             font-size: 36px;
-            line-height: 45px;
-            letter-spacing: 0.25px;
+            line-height: 50px;
+            font-weight: 500;
+            max-width: 15em;
         }
 
         h5 {
             color: #0047FF;
             font-weight: 600;
             font-size: 20px;
-            line-height: 26px;
+            line-height: 30px;
         }
 
         .shopHero__btn {

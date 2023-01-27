@@ -5,9 +5,14 @@
     gap: 2em;
     padding: 0 25px;
     margin: 0 auto;
-    h2{
+    letter-spacing: .35px;
+
+    h2 {
         align-self: center;
+        font-size: 30px;
+        font-weight: 500;
     }
+
     .cardsWrapper {
         align-self: center;
         display: flex;
@@ -16,8 +21,10 @@
 
         .cardItem {
             position: relative;
-            transition: transform .2s ease-in; /* Animation */
+            transition: transform .2s ease-in;
+            /* Animation */
             overflow: hidden;
+
             .carouselImg {
                 height: 190px;
                 width: 190px;
@@ -25,14 +32,15 @@
 
             .cardCaption {
                 position: absolute;
-                top: 140px;
+                top: 130px;
                 left: 20px;
                 color: white;
+                font-size: 18px;
             }
 
         }
 
-        .cardItem:hover{
+        .cardItem:hover {
             transform: scale(1.1);
             cursor: pointer;
         }

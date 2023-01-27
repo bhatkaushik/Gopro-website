@@ -4,12 +4,13 @@
     align-items: center;
     background-color: #E7E9EA;
     height: 40px;
-    padding: 0 15px;
+    padding: 0 25px;
+ 
 
     .MainNavbar__left {
         font-style: normal;
         font-weight: 700;
-        font-size: 13px;
+        font-size: 14px;
         line-height: 18px;
         color: #111111;
 
@@ -20,6 +21,11 @@
         align-items: center;
         font-size: 14px;
         line-height: 15px;
-        gap: 2em;
+        gap: 2.5em;
+
+        li{
+            display: flex;
+            gap: .5em;
+        }
     }
 }

@@ -17,29 +17,29 @@ const Subscribe = () => {
           <h1>Subscribe to GoPro </h1>
           <div className="subscribe__content">
             <li className="subscribe__content__li">
-              <Image src={subscribeIcon1} alt="Subscribeicon" />
-              Automatically upload footage from your GoPro to the cloud
+              <Image src={subscribeIcon1} width={35} alt="Subscribeicon" />
+            <p>  Automatically upload footage from your GoPro to the cloud</p>
             </li>
             <li className="subscribe__content__li">
-              <Image src={subscribeIcon2} alt="Subscribeicon" />
-              Unlimited cloud backup at 100% quality <sup>1</sup>
+              <Image src={subscribeIcon2} width={35} alt="Subscribeicon" />
+             <p> Unlimited cloud backup at 100% quality <sup>1</sup></p>
             </li>
             <li className="subscribe__content__li">
-              <Image src={subscribeIcon3} alt="Subscribeicon" />
-              Unlimited use of the Quik app
+              <Image src={subscribeIcon3} width={35} alt="Subscribeicon" />
+            <p>  Unlimited use of the Quik app</p>
             </li>
             <li className="subscribe__content__li">
-              <Image src={subscribeIcon4} alt="Subscribeicon" />
-              Up to 50% off at GoPro.com <sup>2</sup>
+              <Image src={subscribeIcon4} width={35} alt="Subscribeicon" />
+             <p> Up to 50% off at GoPro.com <sup>2</sup></p>
             </li>
             <li className="subscribe__content__li">
-              <Image src={subscribeIcon5} alt="Subscribeicon" />
-              Guaranteed camera replacement <sup>3</sup>
+              <Image src={subscribeIcon5} width={35} alt="Subscribeicon" />
+              <p> Guaranteed camera replacement <sup>3</sup> </p>
             </li>
           </div>
           <Button
             variant="outlined"
-            sx={{ height: 60, width: 350 }}
+            sx={{ height: 50, width: 200 }}
             id="blackButton"
           >
             SUBSCRIBE NOW

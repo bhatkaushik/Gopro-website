@@ -11,7 +11,6 @@ const MainNavbar = () => {
       </div>
       <div className="MainNavbar__right">
         <li>
-          {" "}
           News <ArrowDropDown />
         </li>
 
@@ -21,12 +20,10 @@ const MainNavbar = () => {
           <ArrowDropDown />
         </li>
         <li>
-          {" "}
           <PermIdentity /> Account
         </li>
 
         <li>
-          {" "}
           <Language /> IN | EN
         </li>
       </div>

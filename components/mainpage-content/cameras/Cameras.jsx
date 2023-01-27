@@ -11,13 +11,13 @@ const Cameras = () => {
       <div className="camera__cards">
         <Image src={Hero11Img} className="img" alt="hero11" />
         <h2>Hollywood in your hand.</h2>
-        <Button variant="outlined" id="blackButton" sx={{width:300}}>Shop Now</Button>
+        <Button variant="outlined" id="blackButton" sx={{width:150 , height:50}}>Shop Now</Button>
 
       </div>
       <div className="camera__cards">
         <Image src={Hero11MiniImg} className="img" alt="hero11" />
         <h2>Smaller. Simpler. Full performance.</h2>
-        <Button variant="outlined" id="blackButton" sx={{width:300}}>Shop Now</Button>
+        <Button variant="outlined" id="blackButton" sx={{width:150, height:50}}>Shop Now</Button>
       </div>
     </section>
   );
