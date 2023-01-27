@@ -45,13 +45,13 @@ li {
   height:80px;
 }
 
-.smallImg{
-  width: 21em;
-  height: auto;
-}
-
-.largeImg{
-  width: 43em;
+.img{
+  width: 100%;
   height: auto;
 }
 /* border: 1px solid #000; */
+
+#blackButton{
+  background-color:#111111;
+  color: #ffffff;
+}

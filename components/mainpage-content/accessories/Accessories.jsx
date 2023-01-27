@@ -7,20 +7,19 @@ import AccessoriesImage4 from "../../../public/accessories/protection-1920-2x.we
 const Accessories = () => {
   return (
     <section className="accessoriesGallery">
-      <div className="accessories__container">
-        <Image
-          src={AccessoriesImage1}
-          className="largeImg"
-          alt="accessoriesImg"
-        />
-      </div>
-
-      <div className="accessories__secand__wrapper">
-        <Image src={AccessoriesImage2}   className="largeImg" alt="accessoriesImg" />
-        <div className="accessories__third__wrapper">
-          <Image src={AccessoriesImage3} className="smallImg"  alt="accessoriesImg" />
-          <Image src={AccessoriesImage4} className="smallImg" alt="accessoriesImg" />
-        </div>
+      <div className="accessories__grid">
+        <article className="accessories__article">
+          <Image src={AccessoriesImage1} className="img" alt="accessoriesImg" />
+        </article>
+        <article className="accessories__article">
+          <Image src={AccessoriesImage2} className="img" alt="accessoriesImg" />
+        </article>
+        <article className="accessories__article">
+          <Image src={AccessoriesImage3} className="img" alt="accessoriesImg" />
+        </article>
+        <article className="accessories__article">
+          <Image src={AccessoriesImage4} className="img" alt="accessoriesImg" />
+        </article>
       </div>
     </section>
   );

@@ -1,5 +1,5 @@
 'use client'
-import { Facebook, Instagram, Twitter, YouTube } from "@mui/icons-material";
+
 import "./Footer.scss";
 
 const Footer = () => {
@@ -7,14 +7,7 @@ const Footer = () => {
     {
       heading: "ABOUT",
       values: [
-        "Our Story",
-        "Careers",
-        "CSR",
-        "Diversity & Inclusion",
-        "Investors",
-        "Supplier Responsibility",
-        "Connect With GoPro",
-        "Distributors",
+        "Our Story","Careers","CSR","Diversity & Inclusion","Investors","Supplier Responsibility","Connect With GoPro","Distributors",
       ],
     },
     {
@@ -57,29 +50,6 @@ const Footer = () => {
   ];
   return (
     <footer className="footer">
-      <div className="footer__top">
-        <div className="">
-          <div className="">
-            <h3>Get exclusive offers and updates</h3>
-          </div>
-          <div className="">
-            <p>
-              By signing up, you agree to with GoPros{" "}
-              <span> Privacy Policy </span>and <span> Terms of Use</span>.
-            </p>
-          </div>
-        </div>
-        <div className="footer__searchBar">
-          <input type="email" name="" id="" />
-          <button>Sign UP</button>
-        </div>
-        <div className="socialicons">
-          <Instagram />
-          <Twitter />
-          <Facebook />
-          <YouTube />
-        </div>
-      </div>
       <div className="footer__middle">
         <div className="footer__middle__Xwrapper">
           {footerLinksArray.map((data, index) => {

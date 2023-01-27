@@ -8,36 +8,23 @@ import Image from "next/image";
 const Categories = () => {
   return (
     <section className="categories">
-      <div className="categroies__container1">
-        <Image
-          src={categoryImage1}
-          className="largeImg"
-          alt="categoryImage"
-        />
-        {/* Backpacks + Bags */}
-        <div className="categories__subContainer">
-          <Image
-            src={categoryImage2}
-            className="smallImg"
-            alt="categoryImage"
-          />
-          {/* Clothing */}
-          
-          <Image
-            src={categoryImage3}
-            className="smallImg"
-            alt="categoryImage"
-          />
-          {/* Lifestyle */}
-        </div>
-      </div>
-      <div className="categories__container">
-        <Image
-          src={categoryImage4}
-          className="largeImg"
-          alt="categoryImage"
-        />
-        {/* Gear designed for the GoPro lifestyle */}
+      <div className="grid-container">
+        <article className="categoriesImgArticle">
+          <Image src={categoryImage1} className="img" alt="categoryImage" />
+          <figcaption>Backpacks + Bags</figcaption>
+        </article>
+        <article className="categoriesImgArticle">
+          <Image src={categoryImage2} className="img" alt="categoryImage" />
+          <figcaption> Clothing</figcaption>
+        </article>
+        <article className="categoriesImgArticle">
+          <Image src={categoryImage3} className="img" alt="categoryImage" />
+          <figcaption> Lifestyle</figcaption>
+        </article>
+        <article className="categoriesImgArticle">
+          <Image src={categoryImage4} className="img" alt="categoryImage" />
+          <figcaption> Gear designed for the GoPro lifestyle</figcaption>
+        </article>
       </div>
     </section>
   );
