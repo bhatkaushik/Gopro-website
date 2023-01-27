@@ -16,6 +16,39 @@
         'one one three four'
         ;
 
+        .accessories__article{
+            position: relative;
+
+            .accessories__figCaption{
+                position: absolute;
+                font-size: 26px;
+                line-height: 36px;
+                overflow: hidden;
+            }
+
+            .caption1{
+                font-size: 44px;
+                line-height: 56px;
+                top:1em;
+                left: 1em;
+                max-width: 6em;
+            }
+
+            .caption2{
+                top: 4em;
+                left: 2em;
+            }
+
+            .caption3{
+                top: 8em;
+                left: 4.5em;
+            }
+
+            .caption4{
+                top: 8em;
+                left: 4.5em;
+            }
+        }
         .accessories__article:nth-child(1){
             grid-area: one;
         }

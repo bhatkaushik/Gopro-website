@@ -1,4 +1,4 @@
-'use client'
+"use client";
 
 import "./Footer.scss";
 
@@ -7,7 +7,14 @@ const Footer = () => {
     {
       heading: "ABOUT",
       values: [
-        "Our Story","Careers","CSR","Diversity & Inclusion","Investors","Supplier Responsibility","Connect With GoPro","Distributors",
+        "Our Story",
+        "Careers",
+        "CSR",
+        "Diversity & Inclusion",
+        "Investors",
+        "Supplier Responsibility",
+        "Connect With GoPro",
+        "Distributors",
       ],
     },
     {
@@ -48,17 +55,22 @@ const Footer = () => {
       ],
     },
   ];
+
+  const linkHeaderStyle = {
+    padding: "2em 0 1em",
+    color:'white'
+  };
   return (
     <footer className="footer">
-      <div className="footer__middle">
-        <div className="footer__middle__Xwrapper">
+      <div className="footer__links">
+        <div className="footer__links__Xwrapper">
           {footerLinksArray.map((data, index) => {
             return (
-              <div key={index} className="footer__middle__Ywrapper">
-                <h3>{data.heading}</h3>
+              <div key={index} className="footer__links__Ywrapper">
+                <h3 style={linkHeaderStyle}>{data.heading}</h3>
                 {data.values.map((value, ind) => {
                   return (
-                    <div key={ind} className="linksWrapper">
+                    <div key={ind} className="linksWrapper ">
                       <li className="linksItem">{value}</li>
                     </div>
                   );
@@ -69,6 +81,8 @@ const Footer = () => {
         </div>
       </div>
 
+      <hr />
+
       <div className="footer__bottom">
         <ul className="terms__of__use">
           <li>Terms Of Use</li>
@@ -77,20 +91,17 @@ const Footer = () => {
           <li>Cookie Notice</li>
           <li>Imprint</li>
         </ul>
-        
-        
-        <p> © 2023 GoPro Inc. All rights reserved. GoPro, HERO and their respective
-        logos are trademarks or registered trademarks of GoPro, Inc. in the
-        United States and other countries. All other trademarks are the property
-        of their respective owners.</p>
+
+        <p>
+          © 2023 GoPro Inc. All rights reserved. 
+        </p>
+        <p>GoPro, HERO and their
+          respective logos are trademarks or registered trademarks of GoPro,
+          Inc. in the United States and other countries. All other trademarks
+          are the property of their respective owners.</p>
       </div>
     </footer>
   );
 };
 
 export default Footer;
-
-
-
-
-

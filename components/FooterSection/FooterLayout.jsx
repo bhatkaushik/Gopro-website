@@ -6,6 +6,7 @@ const FooterLayout = () => {
   return (
     <div>
       <PreFooter />
+      <div className="spacerbar__short"></div>
       <FooterSearchBar />
       <Footer />
     </div>

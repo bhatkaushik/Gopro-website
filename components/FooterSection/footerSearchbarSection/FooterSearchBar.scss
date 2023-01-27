@@ -2,37 +2,41 @@
     .footer__searchbar__section{
         display: flex;
         gap: 2em;
-        align-items: center;
         justify-content: space-between;
-        padding: 2em 3em;
+        align-items: center;
+        padding: 3em 3em;
         background-color:rgb(50,50,50,0.94);
         color: #ffffff;
-        
+        flex-wrap: wrap;
       
 
         .searchBar__left{
             display: flex;
             flex-direction: column;
             gap: 1em;
+            flex: 1;
         }
 
         .footer__searchBar{
             display: flex;
             gap: 1em;
+            flex:2 ;
 
+            #outlined-basic{
+                background-color: #ffffff;
+                width: 30em;
+                height: 1em;
+                border-radius: 10px;
+                border: none;
+            }
         }
 
-        #outlined-basic{
-            background-color: #ffffff;
-            width: 30em;
-            height: 1em;
-            border-radius: 10px;
-            border: none;
-        }
+        
 
         .socialicons{
             display: flex;
             gap: .5em;
+            flex: 1;
         }
         .socialicons:hover{
             cursor: pointer;

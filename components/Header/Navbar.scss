@@ -27,6 +27,8 @@
     .navbar-search-cart {
         display: flex;
         gap: 1em;
-      
+    }
+    .navbar-search-cart :hover{
+        cursor: pointer;
     }
 }

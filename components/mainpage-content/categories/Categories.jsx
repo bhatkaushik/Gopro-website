@@ -11,19 +11,19 @@ const Categories = () => {
       <div className="grid-container">
         <article className="categoriesImgArticle">
           <Image src={categoryImage1} className="img" alt="categoryImage" />
-          <figcaption>Backpacks + Bags</figcaption>
+          <figcaption className="categories__figCaption caption1">Backpacks <br /> + Bags</figcaption>
         </article>
         <article className="categoriesImgArticle">
           <Image src={categoryImage2} className="img" alt="categoryImage" />
-          <figcaption> Clothing</figcaption>
+          <figcaption className="categories__figCaption caption2 "> Clothing</figcaption>
         </article>
         <article className="categoriesImgArticle">
           <Image src={categoryImage3} className="img" alt="categoryImage" />
-          <figcaption> Lifestyle</figcaption>
+          <figcaption className="categories__figCaption caption3"> Lifestyle</figcaption>
         </article>
         <article className="categoriesImgArticle">
           <Image src={categoryImage4} className="img" alt="categoryImage" />
-          <figcaption> Gear designed for the GoPro lifestyle</figcaption>
+          <figcaption className="categories__figCaption caption4"> Gear designed for the GoPro lifestyle</figcaption>
         </article>
       </div>
     </section>
