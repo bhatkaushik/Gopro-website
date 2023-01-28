@@ -2,7 +2,6 @@
     max-width: 94%;
     margin: 0 auto;
     overflow: hidden;
-
     .grid-container {
         display: grid;
         gap: 1em;
@@ -20,7 +19,7 @@
 
             .categories__figCaption {
                 position: absolute;
-                font-size: 26px;
+                font-size: 2.2vw;
                 line-height: 36px;
             }
 
@@ -33,7 +32,7 @@
             .caption2 {
                 color: #ffffff;
                 top: 14vw;
-                left: 7.5vw;
+                left: 7vw;
             }
 
             .caption3 {
@@ -42,13 +41,12 @@
             }
 
             .caption4 {
-                font-size: 44px;
+                font-size: 3.4vw;
                 line-height: 56px;
                 color: #ffffff;
                 top: 25vw;
                 left: 3vw;
                 max-width: 8em;
-                letter-spacing: .45px;
             }
 
         }
@@ -75,8 +73,9 @@
     }
 
     @media (max-width: 800px) {
+       
         .grid-container {
-
+        
             grid-template-areas: 'four four'
                 'one one'
                 'two three'
