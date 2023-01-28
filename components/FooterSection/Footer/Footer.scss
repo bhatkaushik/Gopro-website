@@ -16,12 +16,28 @@
                 gap: 1em;
                 flex: 1;
 
-                .linksWrapper {
+                .linksHeader{
+                    padding: 2em 0 1em;
+                    color:white;
+                    transition: .2s ease-in-out;
+                }
+                .linksHeader:hover{
+                    opacity: .7;
+                    cursor: pointer;
+                }
 
+                .linksWrapper {
+                   
 
                     .linksItem {
                         font-size: 15px;
                         line-height: 18px;
+                        transition: ease-in .2s;
+                    }
+
+                    .linksItem:hover{
+                        cursor: pointer;
+                        color: white;
                     }
                 }
             }
@@ -39,6 +55,7 @@
         
         hr{
             margin:0 0 2em 0;
+            background-color: #C3C5C6;
         }
         span{
             color: white;
@@ -47,6 +64,9 @@
             display: flex;
             gap: 2rem;
             margin-bottom: 1rem;
+        }
+        .terms__of__use :hover{
+            cursor: pointer;
         }
     }
 

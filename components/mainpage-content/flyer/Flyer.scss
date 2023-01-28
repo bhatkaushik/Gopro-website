@@ -7,7 +7,7 @@
     align-items: center;
     color: #ffffff;
     width: 93vw;
-    // font-family: 'Montserrat', sans-serif;
+    font-family: 'Martel Sans', sans-serif; 
     .flyerImg {
         width: 100%;
         height: auto;
@@ -17,11 +17,11 @@
 
     .flyer__content {
         position: absolute;
-        top: 5.5em;
+        top: 5rem;
         display: flex;
         flex-direction: column;
         align-items: center;
-        gap: 1em;
+        gap: .6rem;
         h2{
             font-size: 24px;
         }
