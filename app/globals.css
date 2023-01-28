@@ -70,3 +70,10 @@ li {
 
 
 }
+
+@media (max-width: 600px) {
+  body{
+    font-size: 8px;
+    background-color: aqua;
+  }
+}

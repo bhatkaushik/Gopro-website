@@ -23,7 +23,7 @@
                 position: absolute;
                 font-size: 28px;
                 line-height: 36px;
-                overflow: hidden;
+
             }
 
             .caption1{
@@ -67,10 +67,15 @@
             cursor: pointer;
         }
     }
-
-
-   
- 
-
+    @media (max-width:800px) {
+        .accessories__grid {
+            background-color: aqua;
+            grid-template-areas:
+                'one '
+                'two'
+                'three four';
+        }
+    }
 
 }
+

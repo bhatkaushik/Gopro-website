@@ -4,7 +4,8 @@
     justify-content: center;
     gap: 1em;
     padding:0 25px;
-    letter-spacing:.50px;
+    text-align: center;
+
     .camera__cards{
         display: flex;
         flex-direction: column;
@@ -13,6 +14,15 @@
 
         h2{
             font-size: 29px;
+
         }
+    }
+}
+
+
+
+@media (max-width: 1000px) {
+    .cameras{
+        flex-direction: column;
     }
 }

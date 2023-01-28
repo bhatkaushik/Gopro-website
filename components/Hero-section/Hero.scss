@@ -9,17 +9,21 @@
 
     .hero__content {
         position: absolute;
-        top: 9em;
-        left: 2em;
-        max-width: 35em;
+        top: 22%;
+        // left: 2em;
+        height: 100%;
+        left: 3%;
+        max-width: 1490px;
         display: flex;
         flex-direction: column;
         gap: 1.5em;
+        margin: 0 auto;
+        
 
         .hero__heading {
             display: flex;
             background-color: #0047FF;
-            font-size: 32px;
+            font-size: 2em;
             color: white;
             font-weight: 400;
             padding: 2px 28px;
@@ -30,7 +34,7 @@
 
         .hero__subHeading {
             font-weight: 600;
-            font-size: 36px;
+            font-size: 2.2em;
             line-height: 50px;
            font-weight: bold;
             max-width: 15em;
@@ -38,17 +42,9 @@
 
         h5 {
             color: #0047FF;
-            font-weight: 600;
-            font-size: 20px;
-            line-height: 30px;
-        }
-
-        .shopHero__btn {
-            padding: 15px 20px;
-            font-weight: 700;
-            font-size: 14px;
-            line-height: 18px;
-            width: 180px;
+            font-weight: bold;
+            font-size: 1.3em;
+            line-height: 1.8em;
         }
     }
 }
