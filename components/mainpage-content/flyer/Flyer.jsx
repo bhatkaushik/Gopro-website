@@ -7,7 +7,7 @@ import { Button } from "@mui/material";
 const Flyer = () => {
   return (
     <section className="flyer">
-      <Image src={FlyerImage} className="flyerImg" alt="Flyer" />
+      <Image src={FlyerImage} className="img" alt="Flyer" />
       <div className="flyer__content">
         <h2>FLASH SALE!</h2>
         <h1>Huge Savings On HERO11 Mini</h1>

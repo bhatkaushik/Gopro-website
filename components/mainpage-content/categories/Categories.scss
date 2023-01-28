@@ -25,28 +25,28 @@
             }
 
             .caption1 {
-                top: 4.5em;
-                left: 3em;
+                top: 7vw;
+                left: 5vw;
 
             }
 
             .caption2 {
                 color: #ffffff;
-                top: 8em;
-                left: 4.5em;
+                top: 14vw;
+                left: 7.5vw;
             }
 
             .caption3 {
-                top: 8em;
-                left: 4.5em;
+                top: 14vw;
+                left: 7.5vw;
             }
 
             .caption4 {
                 font-size: 44px;
                 line-height: 56px;
                 color: #ffffff;
-                top:9em;
-                left: 1em;
+                top: 25vw;
+                left: 3vw;
                 max-width: 8em;
                 letter-spacing: .45px;
             }
@@ -74,6 +74,14 @@
         }
     }
 
+    @media (max-width: 800px) {
+        .grid-container {
 
+            grid-template-areas: 'four four'
+                'one one'
+                'two three'
+            ;
+        }
+    }
 
 }
