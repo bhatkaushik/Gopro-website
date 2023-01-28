@@ -60,6 +60,15 @@ const Footer = () => {
     padding: "2em 0 1em",
     color:'white'
   };
+
+  const Rule = ({ color }) => (
+    <hr
+      style={{
+        borderColor: color,
+      }}
+    />
+  );
+
   return (
     <footer className="footer">
       <div className="footer__links">
@@ -81,9 +90,10 @@ const Footer = () => {
         </div>
       </div>
 
-      <hr />
+   
 
       <div className="footer__bottom">
+      <Rule color="#C3C5C6" />
         <ul className="terms__of__use">
           <li>Terms Of Use</li>
           <li>Privacy Policy</li>
@@ -92,9 +102,9 @@ const Footer = () => {
           <li>Imprint</li>
         </ul>
 
-        <p>
+        <span>
           © 2023 GoPro Inc. All rights reserved. 
-        </p>
+        </span>
         <p>GoPro, HERO and their
           respective logos are trademarks or registered trademarks of GoPro,
           Inc. in the United States and other countries. All other trademarks

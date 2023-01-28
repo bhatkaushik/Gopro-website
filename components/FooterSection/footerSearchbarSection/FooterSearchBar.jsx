@@ -7,7 +7,7 @@ const FooterSearchBar = () => {
   return (
     <div className="footer__searchbar__section">
       <div className="searchBar__left">
-        <div className="">
+        <div className="searchBar__left__heading">
           <h3>Get exclusive offers and updates</h3>
         </div>
         <div className="">

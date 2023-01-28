@@ -6,10 +6,13 @@
     flex-direction: column;
     align-items: center;
     color: #ffffff;
-
+    width: 93vw;
+    // font-family: 'Montserrat', sans-serif;
     .flyerImg {
-        width: 93vw;
+        width: 100%;
         height: auto;
+        object-fit: cover;
+        // z-index: -1;
     }
 
     .flyer__content {
@@ -19,7 +22,6 @@
         flex-direction: column;
         align-items: center;
         gap: 1em;
-
         h2{
             font-size: 24px;
         }
@@ -32,7 +34,7 @@
         }
         #whiteButton{
             position: relative;
-            background-color:#ffffff;
+            background-color:white;
             color: #111111;
             transition: transform .2s ease-in;
 

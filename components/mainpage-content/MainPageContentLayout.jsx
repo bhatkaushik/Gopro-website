@@ -15,13 +15,19 @@ const MainPageContentLayout = () => {
       <Carousel />
       <div className="spacerbar__long"></div>
       <Cameras />
+      <div className="spacerbar__short"></div>
       <div className="spacerbar__long"></div>
       <Accessories />
       <div className="spacerbar__long"></div>
+      <div className="spacerbar__short"></div>
       <Subscribe />
       <div className="spacerbar__long"></div>
+      <div className="spacerbar__short"></div>
+
       <Categories />
       <div className="spacerbar__long"></div>
+      <div className="spacerbar__short"></div>
+
     </section>
   );
 };

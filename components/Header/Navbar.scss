@@ -4,11 +4,12 @@
     justify-content: space-between;
     gap: 2em;
     align-items: center;
-    font-weight:500;
+   font-weight: bold;
     font-size: 18px;
     line-height: 21px;
     padding: 0 25px;
-    text-rendering: geometricPrecision;
+    font-family: 'Work Sans', sans-serif;
+
     .navbar__itemWrapper {
         display: flex;
         gap: 2em;
