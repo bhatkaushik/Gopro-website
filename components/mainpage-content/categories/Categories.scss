@@ -1,6 +1,7 @@
 .categories {
     max-width: 94%;
     margin: 0 auto;
+    overflow: hidden;
 
     .grid-container {
         display: grid;
@@ -21,7 +22,6 @@
                 position: absolute;
                 font-size: 26px;
                 line-height: 36px;
-                overflow: hidden;
             }
 
             .caption1 {

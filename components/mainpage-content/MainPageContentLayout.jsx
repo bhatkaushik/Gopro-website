@@ -5,6 +5,7 @@ import Carousel from "./carousel/Carousel";
 import Categories from "./categories/Categories";
 import Flyer from "./flyer/Flyer";
 import Subscribe from "./Subscribe/Subscribe";
+import './MainPageContentLayout.scss'
 
 const MainPageContentLayout = () => {
   return (
