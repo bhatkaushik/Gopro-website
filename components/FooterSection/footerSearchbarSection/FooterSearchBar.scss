@@ -1,52 +1,81 @@
+ .footer__searchbar__section {
+     display: flex;
+     gap: 2em;
+     justify-content: space-between;
+     align-items: center;
+     padding: 3em 3em;
+     background-color: rgb(50, 50, 50, 0.94);
+     color: #ffffff;
+     flex-wrap: wrap;
 
-    .footer__searchbar__section{
-        display: flex;
-        gap: 2em;
-        justify-content: space-between;
-        align-items: center;
-        padding: 3em 3em;
-        background-color:rgb(50,50,50,0.94);
-        color: #ffffff;
-        flex-wrap: wrap;
-      
 
-        .searchBar__left{
-            display: flex;
-            flex-direction: column;
-            gap: 1em;
-            flex: 1;
-            font-size: 14px;
+     .searchBar__left {
+         display: flex;
+         flex-direction: column;
+         gap: 1em;
+         flex: 1;
+         font-size: 14px;
 
-            .searchBar__left__heading{
-                font-size: 20px;
-            }
-        }
+         .searchBar__left__heading {
+             font-size: 20px;
+         }
+     }
 
-        .footer__searchBar{
-            width: 100%;
-            display: flex;
-            gap: 1em;
-            font-weight: 700;
-            flex:2 ;
-            flex-wrap: wrap;
+     .footer__searchBar {
+         width: 100%;
+         display: flex;
+         gap: 1em;
+         font-weight: 700;
+         flex: 2;
+         flex-wrap: wrap;
 
-            #outlined-basic{
-                background-color: #ffffff;
-                width: 30em;
-                height: 1em;
-                border-radius: 10px;
-                border: none;
-            }
-        }
+         #outlined-basic {
+             background-color: #ffffff;
+             width: 30em;
+             height: 1em;
+             border-radius: 10px;
+             border: none;
+         }
+     }
 
-        
 
-        .socialicons{
-            display: flex;
-            gap: .5em;
-            flex: 1;
-        }
-        .socialicons:hover{
-            cursor: pointer;
-        }
-    }
+
+     .socialicons {
+         display: flex;
+         gap: .5em;
+         flex: 1;
+     }
+
+     .socialicons:hover {
+         cursor: pointer;
+     }
+ }
+
+ @media (max-width:1200px) {
+     .footer__searchbar__section {
+         .searchBar__left {
+             align-self: flex-start;
+         }
+
+         flex-direction: column;
+     }
+ }
+
+ @media (max-width:700px) {
+     .footer__searchbar__section {
+
+         .footer__searchBar {
+
+
+             #outlined-basic {
+                 width: 100vw;
+             }
+
+             #blackButton {
+                 width: 100%;
+             }
+         }
+
+
+     }
+ }
