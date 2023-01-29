@@ -7,8 +7,7 @@
     padding: 0 25px;
 
     .MainNavbar__left {
-        font-style: normal;
-        font-weight: 700;
+        font-weight:bold;
         font-size: .9em;
         line-height: 18px;
         color: #111111;
@@ -19,7 +18,6 @@
         display: flex;
         align-items: center;
         font-size: 14px;
-        line-height: 15px;
         gap: 2.5em;
 
         li {
