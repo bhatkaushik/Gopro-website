@@ -11,7 +11,7 @@
     .MainNavbar__left {
         font-style: normal;
         font-weight: 700;
-        font-size: 14px;
+        font-size: .9em;
         line-height: 18px;
         color: #111111;
 
@@ -32,6 +32,17 @@
         li:hover{
             cursor: pointer;
             opacity: .7;
+        }
+    }
+
+
+    @media (max-width:1200px){
+     
+        text-align: center;
+        font-size: .8em;
+        height: 2em;
+        .MainNavbar__right{
+            display: none;
         }
     }
 }

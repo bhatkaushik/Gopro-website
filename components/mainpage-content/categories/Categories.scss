@@ -75,11 +75,20 @@
     @media (max-width: 800px) {
        
         .grid-container {
+            gap: 0;
         
             grid-template-areas: 'four four'
+            'four four'
                 'one one'
                 'two three'
             ;
+            .categoriesImgArticle{
+                .categories__figCaption{
+                    font-size: 1.5em;
+                }
+            }
+            
+
         }
     }
 

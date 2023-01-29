@@ -72,11 +72,29 @@
     }
 
 
-@media (max-width:700px){
+@media (max-width:900px){
+
+    .footer__links{
+        .footer__links__Xwrapper{
+            flex-direction: column;
+          
+            .footer__links__Ywrapper{
+                border-bottom: #fff 1px solid;
+                .linksWrapper {
+                    display: none;
+                }
+
+            }
+
+        }
+    }
 
         .footer__bottom{
             text-align: center;
         
+            hr{
+                display: none;
+            }
         }
     }
 

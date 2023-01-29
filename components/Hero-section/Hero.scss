@@ -44,4 +44,31 @@
             line-height: 1.8em;
         }
     }
+
+    @media (max-width:700px) {
+      margin-top: 7%;
+        text-align: center;
+        .HeroImg {
+            display: none;
+        }
+
+        .hero__content {
+            align-items: center;
+            position: static;
+            
+
+            .hero__heading {
+                align-self: center;
+                font-size: 1.5em;
+            }
+            
+        .hero__subHeading {
+            font-size: 1.5em;
+        }
+
+        h5 {
+            font-size: 1.2em;
+        }
+        }
+    }
 }

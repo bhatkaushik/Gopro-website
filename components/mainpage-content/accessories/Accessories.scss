@@ -57,6 +57,7 @@
     }
     @media (max-width:800px) {
         .accessories__grid {
+            gap: 0;
             grid-template-columns: repeat(2,1fr);
             .accessories__article:nth-child(1){
                 grid-column:1/ span 2;
@@ -66,6 +67,14 @@
                 grid-column: 1/span 2;
             }
             
+            .accessories__article{
+
+            
+
+            .accessories__figCaption{
+                font-size: 2em;
+            }
+        }
         }
     }
 
