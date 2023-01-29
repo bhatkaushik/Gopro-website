@@ -77,6 +77,11 @@ li {
   .spacerbar__short {
     height: 40px;
   }
+
+  #blackButton{
+    width: 85%;
+    border-radius: 10px;
+}
 }
 
 /* font-family: 'Montserrat', sans-serif; */

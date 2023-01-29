@@ -2,5 +2,9 @@
     max-width: 1490px;
     margin: 0 auto;
     width: 94%;
+
+    @media (max-width: 600px) {
+        width: 90%;
+    }
 }
 // overall margin and width is set here

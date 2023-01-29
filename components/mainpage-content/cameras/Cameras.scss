@@ -15,10 +15,11 @@
 
         }
     }
+    @media (max-width: 1000px) {
+   
+        flex-direction: column;
+        gap: 3em;
+   
+}
 }
 
-@media (max-width: 1000px) {
-    .cameras {
-        flex-direction: column;
-    }
-}
