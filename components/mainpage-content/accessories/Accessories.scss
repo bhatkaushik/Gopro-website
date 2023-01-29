@@ -14,7 +14,6 @@
             .accessories__figCaption {
                 position: absolute;
                 font-size: 2.2vw;
-                line-height: 36px;
             }
 
             .caption1 {
@@ -26,18 +25,19 @@
             }
 
             .caption2 {
-                top: 8vw;
+                bottom: 3vw;
                 left: 5vw;
             }
 
             .caption3 {
-                top: 14vw;
-                left: 7vw;
+                // top: 14vw;
+                bottom: 3vw;
+               right: 7vw ;
             }
 
             .caption4 {
-                top: 14vw;
-                left: 6vw;
+                bottom: 2.5vw;
+                right: 6vw;
             }
         }
 
@@ -57,7 +57,7 @@
 
     @media (max-width:800px) {
         .accessories__grid {
-            gap: 0;
+            gap: 0.3em;
             grid-template-columns: repeat(2, 1fr);
 
             .accessories__article:nth-child(1) {
@@ -72,7 +72,8 @@
             .accessories__article {
 
                 .accessories__figCaption {
-                    font-size: 2em;
+                    font-size: 1.5em;
+                    right: 10vw;
                 }
             }
         }
