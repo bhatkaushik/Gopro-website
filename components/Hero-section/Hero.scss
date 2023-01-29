@@ -7,6 +7,8 @@
     }
 
     .hero__content {
+
+        // using absolute & vw for to get positioning and fonts responsive
         position: absolute;
         top: 10vw;
         height: 100%;
@@ -67,7 +69,7 @@
             }
             
         .hero__subHeading {
-            font-size: 1.5em;
+            font-size: 1.7em;
         }
 
         h5 {

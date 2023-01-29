@@ -8,7 +8,9 @@ import Image from "next/image";
 const Categories = () => {
   return (
     <section className="categories">
+
       <div className="grid-container">
+
         <article className="categoriesImgArticle">
           <Image src={categoryImage1} className="img" alt="categoryImage" />
           <figcaption className="categories__figCaption caption1">Backpacks <br /> + Bags</figcaption>
@@ -25,7 +27,9 @@ const Categories = () => {
           <Image src={categoryImage4} className="img" alt="categoryImage" />
           <figcaption className="categories__figCaption caption4"> Gear designed for the GoPro lifestyle</figcaption>
         </article>
+
       </div>
+      
     </section>
   );
 };

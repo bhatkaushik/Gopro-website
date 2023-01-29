@@ -1,15 +1,11 @@
 .flyer {
     position: relative;
-    margin-top: 200px;
-    margin: 0 auto;
     display: flex;
     flex-direction: column;
     align-items: center;
     color: #ffffff;
     width: 100%;
-    font-family: 'Martel Sans', sans-serif; 
-    padding: 0 30px;
-  border: #111111 1px solid;
+    font-family: 'Martel Sans', sans-serif;
 
     .flyer__content {
         position: absolute;
@@ -17,30 +13,33 @@
         flex-direction: column;
         align-items: center;
         gap: .6rem;
-        top:5vw ;
-       height:65%;
-       overflow: hidden; 
+        top: 5vw;
+        height: 65%;
+        overflow: hidden;
 
-        h2{
+        h2 {
             font-size: 2vw;
         }
 
-        h1{
-            font-size:2.2vw;
+        h1 {
+            font-size: 2.2vw;
         }
-        p{
+
+        p {
             font-size: .8em;
         }
-        #whiteButton{
+
+        #whiteButton {
             position: relative;
-            background-color:white;
+            background-color: white;
             color: #111111;
             transition: transform .2s ease-in;
 
         }
-        #whiteButton:hover{
+
+        #whiteButton:hover {
             transform: translate(-10px, -10px);
-            
+
         }
     }
 

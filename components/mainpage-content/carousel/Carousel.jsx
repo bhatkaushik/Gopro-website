@@ -9,6 +9,8 @@ import carouselImg6 from "../../../public/carouselImages/travel-adventure-nav-2x
 import carouselImg7 from "../../../public/carouselImages/surf-nav-2x.webp";
 
 const Carousel = () => {
+
+  // array of objects containing img src and caption
   const carouselImages = [
     {
       id: 1,
@@ -53,14 +55,14 @@ const Carousel = () => {
       <div className="cardsWrapper">
         {carouselImages.map((cardData) => {
           return (
-            <div key={cardData.id} className="cardItem">
+            <article key={cardData.id} className="cardItem">
               <Image
                 src={cardData.carouselImgLink}
-                className="carouselImg"
+                className="img"
                 alt="cardImage"
               />
-              <div className="cardCaption">{cardData.cardCaption}</div>
-            </div>
+              <figcaption className="cardCaption">{cardData.cardCaption}</figcaption>
+            </article>
           );
         })}
       </div>
@@ -70,33 +72,3 @@ const Carousel = () => {
 
 export default Carousel;
 
-{
-  /* <div className="cardItem">
-            <Image src={carouselImg1} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">SKI</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg2} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">SNOWBOARD</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg3} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">MOUNTAIN BIKE</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg4} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">HIKE + CAMP</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg5} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">DIVE +SNORKEL</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg6} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">TRAVEL + ADVENTURE</div>
-       </div>
-        <div className="cardItem">
-            <Image src={carouselImg7} className="carouselImg" alt='cardImage' />
-            <div className="cardCaption">SURF</div>
-       </div> */
-}

@@ -1,82 +1,81 @@
 .accessoriesGallery {
-    max-width: 94%;
-    margin: 0 auto;
-  
-    .accessories__grid{
+
+    .accessories__grid {
         display: grid;
         justify-content: center;
         gap: .7em;
         justify-content: center;
         align-items: center;
-        grid-template-columns: repeat(4,1fr);
+        grid-template-columns: repeat(4, 1fr);
 
-        .accessories__article{
+        .accessories__article {
             position: relative;
 
-            .accessories__figCaption{
+            .accessories__figCaption {
                 position: absolute;
                 font-size: 2.2vw;
                 line-height: 36px;
-
             }
 
-            .caption1{
+            .caption1 {
                 font-size: 3vw;
-                line-height:3rem;
-                top:3vw;
-                left:3vw;
+                line-height: 3rem;
+                top: 3vw;
+                left: 3vw;
                 max-width: 6em;
             }
 
-            .caption2{
+            .caption2 {
                 top: 8vw;
-                left:5vw;
+                left: 5vw;
             }
 
-            .caption3{
-                top:14vw;
-                left:7vw;
+            .caption3 {
+                top: 14vw;
+                left: 7vw;
             }
 
-            .caption4{
-                top:14vw;
-                left:6vw;
+            .caption4 {
+                top: 14vw;
+                left: 6vw;
             }
         }
-        .accessories__article:nth-child(1){
-            grid-column:1/ span 2;
+
+        .accessories__article:nth-child(1) {
+            grid-column: 1/ span 2;
             grid-row: 1/span 2;
         }
-        .accessories__article:nth-child(2){
+
+        .accessories__article:nth-child(2) {
             grid-column: 3/span 2;
         }
 
-        .accessories__article:hover{
+        .accessories__article:hover {
             cursor: pointer;
         }
     }
+
     @media (max-width:800px) {
         .accessories__grid {
             gap: 0;
-            grid-template-columns: repeat(2,1fr);
-            .accessories__article:nth-child(1){
-                grid-column:1/ span 2;
+            grid-template-columns: repeat(2, 1fr);
+
+            .accessories__article:nth-child(1) {
+                grid-column: 1/ span 2;
                 grid-row: 1;
             }
-            .accessories__article:nth-child(2){
+
+            .accessories__article:nth-child(2) {
                 grid-column: 1/span 2;
             }
-            
-            .accessories__article{
 
-            
+            .accessories__article {
 
-            .accessories__figCaption{
-                font-size: 2em;
+                .accessories__figCaption {
+                    font-size: 2em;
+                }
             }
-        }
         }
     }
 
 }
-

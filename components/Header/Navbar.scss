@@ -1,19 +1,17 @@
 .navbar {
-    height:2.9em;
+    height: 2.9em;
     display: flex;
     justify-content: space-between;
     gap: 2em;
     align-items: center;
-   font-weight: bold;
+    font-weight: bold;
     font-size: 18px;
-
     padding: 0 25px;
     font-family: 'Work Sans', sans-serif;
 
     .navbar__itemWrapper {
         display: flex;
         gap: 2em;
-        
 
         .navbar__item {
             height: 3.25em;
@@ -29,15 +27,16 @@
         display: flex;
         gap: 1em;
     }
-    .navbar-search-cart :hover{
+
+    .navbar-search-cart :hover {
         cursor: pointer;
     }
 
 
     @media (max-width:1200px) {
-        box-shadow: inset 0 0 1px #000000;
-        .navbar__itemWrapper{
+
+        .navbar__itemWrapper {
             display: none;
         }
-}
+    }
 }

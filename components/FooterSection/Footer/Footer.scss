@@ -1,5 +1,5 @@
 .footer {
-    color: #C3C5C6;    
+    color:var(--footer-grey-color);    
 
 
     .footer__links {
@@ -56,7 +56,7 @@
        
         hr{
             margin:0 0 2em 0;
-            background-color: #C3C5C6;
+            background-color:var(--footer-grey-color);
         }
         span{
             color: white;

@@ -1,28 +1,24 @@
-.cameras{
+.cameras {
     display: flex;
     flex-direction: row;
-    justify-content: center;
     gap: 1em;
-    padding:0 25px;
     text-align: center;
 
-    .camera__cards{
+    .camera__cards {
         display: flex;
         flex-direction: column;
         align-items: center;
         gap: 2.5em;
 
-        h2{
+        h2 {
             font-size: 29px;
 
         }
     }
 }
 
-
-
 @media (max-width: 1000px) {
-    .cameras{
+    .cameras {
         flex-direction: column;
     }
 }
