@@ -2,9 +2,8 @@
     position: relative;
     font-family: 'Montserrat', sans-serif;
 
-    .HeroImg {
-        width: 100%;
-        height: auto;
+    .hero__Img__Mobile {
+    display: none;
     }
 
     .hero__content {
@@ -46,16 +45,21 @@
     }
 
     @media (max-width:700px) {
-      margin-top: 7%;
+        position: static;
         text-align: center;
-        .HeroImg {
+        .hero__Img {
             display: none;
+            
         }
-
+        .hero__Img__Mobile{
+            display: block;
+            width: 90%;
+            margin:0 auto;
+        }
         .hero__content {
             align-items: center;
             position: static;
-            
+            margin-top: 2em;
 
             .hero__heading {
                 align-self: center;
